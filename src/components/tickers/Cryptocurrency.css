@@ -1,0 +1,47 @@
+.cryptocurrency {
+	background-color: #fbe2c3;
+	padding: 1rem 2rem 2rem;
+	margin: 1rem;
+	border-radius: 0.5rem;
+	min-width: 9rem;
+	border: solid 1px rgbd(0,0,0,0.05);
+	max-width: 3px;
+	text-align: center;
+	align-items: center;
+}
+
+.positive {
+	border-bottom: solid 10px #acf441;
+	border-right: solid 4px #acf441;
+}
+
+.negative {
+	border-bottom: solid 10px #f44242;
+	border-right: solid 4px #f44242;
+}
+
+.price {
+	font-size: large;
+	font-weight: bold;
+}
+
+.cryptocurrency p {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.cryptocurrency-name {
+	font-size: 1rem;
+}
+
+.cryptocurrency-rank {
+	text-align: center;
+	font-weight: bold;
+}
+
+.tickers {
+	list-style-type: none;
+	padding: 0;
+	display: inline-flex;
+	flex-wrap: wrap;
+	z-index: 5;
+}
